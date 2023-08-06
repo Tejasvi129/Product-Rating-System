@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #c73d3d;
+    border-radius: 5px;
+  }
+  
+  .average-rating, .user-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stars {
+    cursor: pointer;
+  }
+  
+  .star {
+    margin-right: 5px;
+  }
+  
+  .thank-you-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+  }
+  
